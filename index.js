@@ -1,3 +1,5 @@
+/* eslint no-console: 0 */
+
 const readlineSync = require('readline-sync');
 // @TODO Include calculator module
 
