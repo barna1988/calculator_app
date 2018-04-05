@@ -20,44 +20,44 @@ describe('calculator testing', function() {
   });
 
   describe('Subtraction functionality testing', function() {
-    it('should subtract positive numbers', function() {
+    it('Subtract two positive numbers, returning get positive subtraction', function() {
     });
 
-    it('should subtract negative numbers', function() {
+    it('Subtract two negative numbers, returning get negative subtraction', function() {
     });
 
-    it('should subtract one positive and one negative number', function() {
+    it('Subtract two number, with either of them is negative, producing sum output', function() {
     });
 
-    it('should subtract 0 values', function() {
+    it('Subtract zeros, produces zero', function() {
     });
   });
   describe('Multiplication functionality testing', function() {
 
-    it('should multiply positive numbers', function() {
+    it('Multiply two positive numbers, returning get positive Multiplication', function() {
     });
 
-    it('should multiply negative numbers', function() {
+    it('Multiply two negative numbers, returning get positive Multiplication', function() {
     });
 
-    it('should multiply one positive and one negative number', function() {
+    it('Multiply two number, with either of them is negative, producing negative multiplication output', function() {
     });
 
-    it('should multiply 0 values', function() {
+    it('Multiply zeros, produces zero', function() {
     });
   });
 
   describe('Division functionality testing', function() {
-    it('should divide positive numbers', function() {
+    it('Divide two positive numbers, returning get positive Multiplication', function() {
     });
 
-    it('should divide negative numbers', function() {
+    it('Divide two negative numbers, returning get positive Multiplication', function() {
     });
 
-    it('should divide one positive and one negative number', function() {
+    it('Divide two number, with either of them is negative, producing negative Division output', function() {
     });
 
-    it(`should not divide by 0 and should give 'Can't divide by zero' message`, function() {
+    it(`Should not divide by 0, producing 'Can't divide by zero' message`, function() {
     });
   });
 });
