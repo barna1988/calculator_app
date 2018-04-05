@@ -1,0 +1,23 @@
+{
+  "globals":
+  {
+    "document": true,
+    "console": true,
+    "module": true,
+    "require": true,
+    "describe": true
+  },
+  "env":
+  {
+    "es6": true
+  },
+  "parserOptions":
+  {
+    "sourceType": "module"
+  },
+  "extends": "eslint:recommended",
+  "rules":
+  {
+    "no-console": "off"
+  }
+}
