@@ -4,17 +4,18 @@
     "document": true,
     "console": true,
     "module": true,
-    "require": true,
-    "describe": true
+    "require": true
   },
   "env":
   {
-    "es6": true
+    "es6": true,
+    "jasmine": true
   },
   "parserOptions":
   {
     "sourceType": "module"
   },
   "extends": "eslint:recommended",
-  "rules":{}
+  "rules":{},
+  "plugins": ["jasmine"]
 }
