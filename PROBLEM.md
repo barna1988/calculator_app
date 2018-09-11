@@ -19,3 +19,9 @@ Write a node.js program for a simple functional math basic operations and break 
 - Include necessary scripts in package.json for running test cases, to run lint checks
 - Take care of adding modules as devDependency and dependency correctly
 - Avoid using ES5 language semantics, try as much as ES6
+
+## MENTORS TO BEGIN REVIEW YOUR WORK ONLY AFTER 
+
+- You add the respective Mentor as a Reporter/Master into your Assignment Repository
+- You have checked your Assignment on the Automated Evaluation Tool - Hobbes (Check for necessary steps in your Boilerplate - README.md/PROBLEM.md file. ) and got the required score - Check with your mentor about the Score you must achieve before it is accepted for Manual Submission. 
+- Intimate your Mentor on Slack and/or Send an Email to learner.support@stackroute.in - with your Git URL - Once you done working and is ready for final submission.
