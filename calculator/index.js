@@ -11,19 +11,19 @@ function calculate(operation, {lhs, rhs}) {
   switch(operation) {
     case 'A':
     case 'a':
-      result = undefined;
+      result = add(lhs, rhs);
       break;
     case 'S':
     case 's':
-      result = undefined;
+      result = subtract(lhs, rhs);
       break;
     case 'M':
     case 'm':
-      result = undefined;
+      result = multiply(lhs, rhs);
       break;
     case 'D':
     case 'd':
-      result = undefined;
+      result = divide(lhs, rhs);
       break;
     default:
       result = 'Unknown operation';
@@ -31,6 +31,25 @@ function calculate(operation, {lhs, rhs}) {
   }
 
   return result;
+}
+
+function add(lhs, rhs){
+  return lhs + rhs;
+}
+
+function subtract(lhs, rhs){
+  return lhs - rhs;
+}
+
+function multiply(lhs, rhs){
+  return lhs * rhs;
+}
+
+function divide(lhs, rhs){
+  if(rhs === 0){
+    return `Division by zero not possible`;
+  }
+  return lhs / rhs;
 }
 
 module.exports = calculate;

@@ -1,7 +1,7 @@
 /* eslint no-console: 0 */
 
 const readlineSync = require('readline-sync');
-// @TODO Include calculator module
+const calculator = require('./calculator/index');
 
 let options = ['Add', 'Subtract', 'Multiply', 'Division'];
 
