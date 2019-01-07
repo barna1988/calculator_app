@@ -47,7 +47,7 @@ function multiply(lhs, rhs){
 
 function divide(lhs, rhs){
   if(rhs === 0){
-    return `Division by zero not possible`;
+    return `Can not divide by zero`;
   }
   return lhs / rhs;
 }
